@@ -9,7 +9,7 @@ function reverseStr(someStr) {
         len --;
 
     }
-    console.log("Reversed String: " + rev.toString());
+    console.log("Reversed String: " + rev.join(""));
   
 }
 
