@@ -6,8 +6,10 @@ For example substring('hello', 0, 3) should give 'hel' */
 function substring(someStr, startIndex, endIndex) {
     let retstr = [];
     for (i = startIndex; i < endIndex; i++){
+        //add (i.e. push) the character at index i to the empty array
         retstr.push(someStr.charAt(i));
     }
+    //combine elements to a string
     return retstr.join("");
 }
 
