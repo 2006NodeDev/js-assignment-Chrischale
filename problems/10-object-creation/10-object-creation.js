@@ -23,6 +23,7 @@ function Player(name, age, schoolYear, position, gamesPlayed, jersey){
     this.jersey = jersey
 }
 
+const player1 = new Player("Sugawara", 17, 3, "setter", 75, 2)
 
 
 //es6 class
@@ -38,10 +39,11 @@ class Player_Obj{
     }
 }
 
-
-const player1 = new Player("Sugawara", 17, 3, "setter", 75, 2)
-
 const player2 = new Player_Obj("Hinata", 15, 1, "spiker", 60, 10)
+
+
+
+
 
 console.log(player1.name + ":" + player1.position);
 
